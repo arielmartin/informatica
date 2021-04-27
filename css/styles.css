@@ -1400,11 +1400,11 @@ input[type='checkbox'] {
 .filter .element-item .element-item-overlay span { 
 	position: absolute;
 	z-index: 3;
-	top: 42%;
+	top: 25%;
 	right: 0;
 	left: 0;
 	color: #fff;
-	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+	font: 700 1.09rem/1.425rem "Montserrat", sans-serif;
 }
 
 
