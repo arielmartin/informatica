@@ -174,7 +174,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             lformError();
-            lsubmitMSG(false, "Please fill all fields!");
+            lsubmitMSG(false, "Complete todos los campos!");
         } else {
             // everything looks good!
             event.preventDefault();
