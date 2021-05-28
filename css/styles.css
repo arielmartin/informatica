@@ -2099,8 +2099,12 @@ a:hover.back-to-top {
 	.cards-1 .card {
 		display: inline-block;
 		max-width: 17.5rem;
-		text-align: left;
+		text-align: center;
 		vertical-align: top;
+	}
+
+	.cards-1 p{
+		text-align: justify;	
 	}
 	
 	.cards-1 div.card:nth-child(3n+2) {
@@ -2447,3 +2451,12 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 /* end of min-width width 1200px */
+
+
+/*****************************/
+/*     22. Maps     */
+/*****************************/	
+.map {
+	height: 200px;
+	width: 100%;
+}
