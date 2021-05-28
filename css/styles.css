@@ -2352,7 +2352,8 @@ a:hover.back-to-top {
 
 	.form-1 form {
 		margin-left: 1.75rem;
-		margin-right: 3rem
+		margin-right: 3rem;
+		padding-top: 3rem;
 	}
 	/* end of call me */
 
