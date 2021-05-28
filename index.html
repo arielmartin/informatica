@@ -28,6 +28,7 @@
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
@@ -201,7 +202,7 @@
                         </span>
                         <div class="card-body">
                             <h4 class="card-title">Seguimiento y Garantía</h4>
-                            <p>Terminado y entregado el trabajo, quedarán abiertos los canales de comunicación tanto por cualquier duda que le pueda quedar, como para asesoramiento. Para su tranquilidad los trabajos siempre saldran con carta de garantía de servicio escrita. </p>
+                            <p>Ya entregado el trabajo, quedarán abiertos los canales de comunicación tanto por cualquier duda que le pueda quedar, como para asesoramiento. Para su tranquilidad los trabajos siempre saldran con carta de garantía de servicio escrita. </p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -830,60 +831,47 @@
     <div class="footer">
         <div class="container">
             <div class="row">
+
+
+
+                <div class="col-md-3">
+                    <div class="text-container">
+                        <h4>Ubicación del Servicio Técnico</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <p class="white">Av. Cristiania 2464, Isidro Casanova, La Matanza, Buenos Aires, Argentina</p>
+                            <p class="white">Colectivos : <i class="fas fa-bus"></i> 96 - <i class="fas fa-bus"></i> 174 - <i class="fas fa-bus"></i> 317 <br>
+                            Tren: <i class="fas fa-train"></i> G. Belgrano (Est. Casanova)</p>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col --> 
+
                 <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Few Words About Aria</h4>
-                        <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+                        <div id="map" class="map">
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-md-2">
+
+                <div class="col-md-3">
                     <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
+                        <h4>Horarios de atención</h4>
+                           <p class="white">
+                                Lunes a Sabados de 10 a 18HS
+                           </p>
+                           <ul class="list-unstyled li-space-lg white">
                             <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
+                                <i class="fas fa-envelope"></i><a href="mailto:arielmartin80@gmail.com" class="white text-decoration-none"> arielmartin80@gmail.com</a>
                             </li>
                             <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                                <i class="fas fa-phone"></i><a href="tel:+5491157673825" class="white text-decoration-none"> (011) 15 57673825</a>
                             </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
+                            <h3>
+                                <i class="fab fa-whatsapp white"></i><a href="https://api.whatsapp.com/send?phone=5491157673825&amp;text=Podras colocar tu mensaje aquí" target="_blank" class="white text-decoration-none"> +54 11 5767-3825</a>
+                            </h3>
                         </ul>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Tools</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">businessgrowth.com</a>
-                            </li>
-                            <li>
-                               <a class="white" href="#your-link">influencers.com</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="#your-link">optimizer.net</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Partners</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">unicorns.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">staffmanager.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">association.gov</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
+                
+
+
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->  
@@ -915,5 +903,7 @@
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
     <script src="js/variables.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+    <script src="js/map.openlayers.js"></script>
 </body>
 </html>
