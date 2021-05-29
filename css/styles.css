@@ -2007,6 +2007,9 @@ a:hover.back-to-top {
 	.form-2 .list-unstyled .address {
 		display: block;
 	}
+	#contact a{
+		text-decoration: none;
+	}
 	/* end of contact */
 
 
@@ -2452,6 +2455,20 @@ a:hover.back-to-top {
 }
 /* end of min-width width 1200px */
 
+/* Max-width width 640px */
+@media (max-width: 640px) {
+	#contact li{
+		float: right;
+		margin: 1rem;
+	}
+	#contact a{
+		font-size: 0;
+	}
+	#contact i{
+		font-size: 2.8rem;
+	}
+}
+
 
 /*****************************/
 /*     22. Maps     */
@@ -2459,4 +2476,6 @@ a:hover.back-to-top {
 .map {
 	height: 200px;
 	width: 100%;
+	margin-bottom: 1rem;
 }
+
