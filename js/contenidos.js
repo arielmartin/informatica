@@ -1,6 +1,6 @@
 /****** PRECIOS  *******/
 
-//dIAGNOSTICO
+//DIAGNOSTICO
 var precio1 = "SIN COSTO"
 
 //REINSTALACION DE SO
