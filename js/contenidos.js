@@ -7,7 +7,7 @@ var precio1 = "SIN COSTO"
 var precio2 = "Costo $ 1.500"
 
 //COSTO BACK-UP
-var precio4 = "Costo $ 600"
+var precio4 = "Costo $ 500"
 
 //MANTENIMIENTO DE EQUIPO
 var precio6 = "Costo $ 1.000"
