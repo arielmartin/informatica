@@ -1,4 +1,4 @@
-import * as imp from "./contenidos.js";
+import {imp} from "./contenidos.js";
 
 $(document).ready(function(){
     $('.precio1').text(imp.precio1);

@@ -1,27 +1,30 @@
 /****** PRECIOS  *******/
+const imp = {
 
 //DIAGNOSTICO
-var precio1 = "SIN COSTO"
+precio1 : "SIN COSTO",
 
 //REINSTALACION DE SO
-var precio2 = "Costo $ 1.500"
+precio2 : "Costo $ 1.500",
 
 //COSTO BACK-UP
-var precio4 = "Costo $ 500"
+precio4 : "Costo $ 500",
 
 //MANTENIMIENTO DE EQUIPO
-var precio6 = "Costo $ 1.000"
+precio6 : "Costo $ 1.000",
 
 //COSTO instalacion antivirus
-var precio7 = "Costo $ 500"
+precio7 : "Costo $ 500",
 
 //COSTO LIMPIEZA DE SISTEMA
-var precio8 = "Costo $ 1.000"
+precio8 : "Costo $ 1.000",
 
 //COSTO MANTENIMIENTO DE CONSOLAS
-var precio13 = "Costo $ 2.000"
+precio13 : "Costo $ 2.000",
 
 //COSTO MANTENIMIENTO DE CONTROLES
-var precio14 = "Costo $ 1.000"
+precio14 : "Costo $ 1.000",
 
-export {precio1, precio2, precio4, precio6, precio7, precio8, precio13, precio14}
+}
+
+export {imp}
