@@ -25,6 +25,9 @@ precio13 : "Costo $ 2.000",
 //COSTO MANTENIMIENTO DE CONTROLES
 precio14 : "Costo $ 1.000",
 
+//COSTO MANTENIMIENTO DE CONTROLES
+precio15 : "Costo $ 1.000",
+
 }
 
 export {imp}

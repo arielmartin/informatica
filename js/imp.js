@@ -9,4 +9,5 @@ $(document).ready(function(){
     $('.precio8').text(imp.precio8);
     $('.precio13').text(imp.precio13);
     $('.precio14').text(imp.precio14);
+    $('.precio15').text(imp.precio15);
 });
