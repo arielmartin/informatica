@@ -17,7 +17,7 @@ precio6 : "Costo $ 1.000",
 precio7 : "Costo $ 500",
 
 //COSTO LIMPIEZA DE SISTEMA
-precio8 : "Costo $ 1.000",
+precio8 : "Costo $ 1.500",
 
 //COSTO MANTENIMIENTO DE CONSOLAS
 precio13 : "Costo $ 2.000",
