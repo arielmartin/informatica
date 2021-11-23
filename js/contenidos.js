@@ -5,10 +5,10 @@ const imp = {
 precio1 : "SIN COSTO",
 
 //REINSTALACION DE SO
-precio2 : "Costo $ 1.500",
+precio2 : "Costo $ 2000",
 
 //COSTO BACK-UP
-precio4 : "Costo $ 500",
+precio4 : "Costo $ 1000",
 
 //MANTENIMIENTO DE EQUIPO
 precio6 : "Costo $ 1.000",
