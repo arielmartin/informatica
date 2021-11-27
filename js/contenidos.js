@@ -10,6 +10,9 @@ precio2 : "Costo $ 2000",
 //COSTO BACK-UP
 precio4 : "Costo $ 1000",
 
+//COSTO SISTEMAS DE VIGILANCIA
+//precio5 : "Requiere presupuesto",
+
 //MANTENIMIENTO DE EQUIPO
 precio6 : "Costo $ 1.000",
 
